@@ -1,0 +1,45 @@
+{
+	"result": [{
+			"NO": 1,
+			"EmployeeName": "Santosh Pandey",
+			"Date": "06/13/2017",
+			"InOut_Time": "12:50PM",
+			"Status": "In"
+		},
+		{
+			"NO": 2,
+			"EmployeeName": "Sandeep Pandey",
+			"Date": "06/13/2017",
+			"InOut_Time": "4:50PM",
+			"Status": "Out"
+		},
+		{
+			"NO": 3,
+			"EmployeeName": "Abhideep Sinha",
+			"Date": "06/13/2017",
+			"InOut_Time": "3:30PM",
+			"Status": "Out"
+		},
+		{
+			"NO": 4,
+			"EmployeeName": "Ram Preethi",
+			"Date": "06/13/2017",
+			"InOut_Time": "3:30PM",
+			"Status": "In"
+		},
+		{
+			"NO": 5,
+			"EmployeeName": "Ameer",
+			"Date": "06/13/2017",
+			"InOut_Time": "3:30PM",
+			"Status": "In"
+		},
+		{
+			"NO": 6,
+			"EmployeeName": "Aksay Sriram",
+			"Date": "06/13/2017",
+			"InOut_Time": "3:30PM",
+			"Status": "Out"
+		}
+	]
+}

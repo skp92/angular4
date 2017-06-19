@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+	width: 80%;
+    margin: auto;
+}
+
+.container{
+    margin-top: 30px;
+
+}
+*, :after, :before {
+    /* box-sizing: inherit; */
+}
+table{
+	width: 100%;
+}
+th{
+	background-color: #3c3d3f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.table td {
+    padding: 15px;
+    color: #333333;
+    text-align: middle;
+}
+.dateSelection{
+    float:right;
+}
+input[type="button"]{
+    border: none;
+    background: #ffff33;
+    padding: 8px 11px;
+}

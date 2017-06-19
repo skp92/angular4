@@ -1,0 +1,42 @@
+<div class="container">
+  
+  <!-- <div>
+    Date: {{ date }}
+  </div> -->
+  <div class="filterOptions" style="padding: 10px 0px;">
+    <span>Select A Reporting View: &nbsp;&nbsp;</span>
+    <input type="button" value="Daily" (click)="loadData()"/>
+    <input type="button" value="Weekly" (click)="loadData()"/>
+    <input type="button" value="Monthly" (click)="loadData()"/>
+    <div class="dateSelection">
+    <span>Pick a date:</span>
+    <span>
+       <my-datepicker [value]="date" (dateChange)="onDateChange($event)"></my-datepicker>
+    </span>
+  </div>
+  </div>
+  <div>
+     <table class="table table-bordered">
+       <tr style="height: 40px;">
+         <th >NO</th>
+         <th >Employee Name</th>
+         <th >Date</th>
+         <th >In/Out Time</th>
+         <th >Status</th>
+       </tr>
+       <tr *ngFor="let items of datas.result">
+         <td>{{items.NO}}</td>
+         <td>{{items.empname}}</td>
+         <td>{{items.dt}}</td>
+         <td>{{items.InTime}}</td>
+         <td>{{items.inout}}</td>
+       </tr>
+       
+     </table>
+   </div>
+   
+
+  <a id="onchanges"></a>
+  <on-changes-parent></on-changes-parent>
+</div>
+
